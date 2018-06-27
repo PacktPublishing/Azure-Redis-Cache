@@ -1,0 +1,11 @@
+﻿<Application x:Class="RedisDemo.Chat.Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RedisDemo.Chat.Wpf"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Value="13" Property="FontSize"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="RedisDemo.Chat.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RedisDemo.Chat.Wpf"
+        mc:Ignorable="d"
+        Title="Sample App" Height="500" Width="750">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45" />
+            <RowDefinition />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Username: " Margin="0, 8, 5, 0" />
+            <TextBox Padding="2" IsEnabled="False" Height="25" Margin="0, 0, 10, 0" Width="250" Name="username" TextChanged="username_TextChanged" />
+            <Button IsEnabled="False" Content="Connect" Height="30" HorizontalAlignment="Right" Name="setUsernameBtn" Click="setUsernameBtn_Click" Padding="5" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <ListView Name="messagesList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="10, 0, 0, 10">
+                            <TextBlock Text="{Binding Sender}" FontWeight="SemiBold" FontSize="15" />
+                            <TextBlock Text="{Binding Content}" />
+                            <TextBlock Text="{Binding ReceivedAt}" Foreground="Gray" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="70" />
+            </Grid.ColumnDefinitions>
+            <TextBox IsEnabled="False" TextChanged="message_TextChanged" VerticalAlignment="Top" Height="25" Margin="10" Name="message" />
+            <Button IsEnabled="False" VerticalAlignment="Top" Margin="8" Content="Send" Height="30" Name="sendMessageBtn" Click="sendMessageBtn_Click" Padding="5" Grid.Column="1" />
+            <TextBlock Grid.Row="1" Margin="10, 0, 0, 0" Text="Messages should be forwarded using @username scheme to be delivered to a specific member." />
+        </Grid>
+    </Grid>
+</Window>
