@@ -7,7 +7,7 @@ namespace HelloRedis
     class Program
     {
         private static ConnectionMultiplexer connection;
-        private static string connectionString = "packtredis.redis.cache.windows.net:6380,password=S48BKrl1Z8l1xhH1vcgv+2fiOps0c2mTcvLq3ABKxfk=,ssl=True,abortConnect=False";
+        private static string connectionString = "<connStr>";
 
         private static IDatabase database;
 
