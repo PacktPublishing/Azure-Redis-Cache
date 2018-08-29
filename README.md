@@ -6,14 +6,14 @@ This course takes Azure Redis Cache, a cloud-based solution for distributed cach
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>:Understand the Redis protocol and Azure Redis Cache. 
-<LI>:Set up a connection between Azure Redis Cache and your applications. 
-<LI>:Master cache concepts in Redis and learn to implement your own solutions for Redis cache. 
-<LI>:Develop and demonstrate cache data storage, so users can discover how the protocol works. 
-<LI>:Explore service clustering in order to replicate service workloads and increase the memory-size. 
-<LI>:Architect cache solutions with more than 500GB of distributed in-memory cache. 
-<LI>:Secure and fine-tune the service provided by the Azure platform, such as geo replication, security, and firewalls. 
-<LI>:Develop your own chat applications to stream information down to end-users. </LI></UL></DIV>
+<LI>Understand the Redis protocol and Azure Redis Cache. 
+<LI>Set up a connection between Azure Redis Cache and your applications. 
+<LI>Master cache concepts in Redis and learn to implement your own solutions for Redis cache. 
+<LI>Develop and demonstrate cache data storage, so users can discover how the protocol works. 
+<LI>Explore service clustering in order to replicate service workloads and increase the memory-size. 
+<LI>Architect cache solutions with more than 500GB of distributed in-memory cache. 
+<LI>Secure and fine-tune the service provided by the Azure platform, such as geo replication, security, and firewalls. 
+<LI>Develop your own chat applications to stream information down to end-users. </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
