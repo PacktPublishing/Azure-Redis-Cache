@@ -15,9 +15,9 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 This course is focused on developers, cloud architects and engineers, and operations managers. You A basic understanding of distributed caching and Redis protocol is desirable; however, even if you don't have this, the course has enough material to get you started in no time!
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Basics of Distributed computing
-Basics of Data structures
-Basics of Hashing algorithms
+<LI>Basics of Distributed computing
+<LI>Basics of Data structures
+<LI>Basics of Hashing algorithms
 
 
 ## Related Products
