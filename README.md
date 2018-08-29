@@ -6,8 +6,14 @@ This course takes Azure Redis Cache, a cloud-based solution for distributed cach
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>We cover aspects of Continuous Testing: Unit Test Execution, Functional Testing, and Load Testing 
-<LI>We explore effective ways to manage and monitor Jenkins. You will see how to run jobs different types of slave and how to deploy a system to AWS with Ansible and with Docker on Kubernetes. </LI></UL></DIV>
+<LI>:Understand the Redis protocol and Azure Redis Cache. 
+<LI>:Set up a connection between Azure Redis Cache and your applications. 
+<LI>:Master cache concepts in Redis and learn to implement your own solutions for Redis cache. 
+<LI>:Develop and demonstrate cache data storage, so users can discover how the protocol works. 
+<LI>:Explore service clustering in order to replicate service workloads and increase the memory-size. 
+<LI>:Architect cache solutions with more than 500GB of distributed in-memory cache. 
+<LI>:Secure and fine-tune the service provided by the Azure platform, such as geo replication, security, and firewalls. 
+<LI>:Develop your own chat applications to stream information down to end-users. </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
